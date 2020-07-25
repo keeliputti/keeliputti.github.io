@@ -1860,8 +1860,8 @@ body {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 8px;
-		border: 0.2;  /*button border*/
+		border-radius: 15px;
+		border: 0.2;  /*button border thickness*/
 		border-color: #d9d9d9;
 		cursor: pointer;
 		display: inline-block;
