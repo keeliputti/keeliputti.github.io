@@ -3143,6 +3143,7 @@ body {
 				font-variant: normal; 
 				font-weight: 400; 
 				line-height: 28.6px;
+				color: rgba(255,255,255,0.5);
 		}
 
 		#header.alt {
