@@ -1877,8 +1877,8 @@ body {
 	.btn-rounded-white {
     display: inline-block;
     color: #fff;
-    padding: 2px 10px;
-    border: 2px solid #fff;
+    padding: 5px 20px;
+    border: 3px solid #fff;
     border-radius: 30px;
     transition: .5s ease all
 }
@@ -2705,6 +2705,8 @@ body {
 
 		header.major p {
 			  font-family: Arial, Helvetica, sans-serif;
+			text-color: "#06dcd6";
+			opacity:0.5;
 }
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
