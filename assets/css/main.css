@@ -1866,10 +1866,8 @@ body {
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
-		
 		line-height: 1.75em;
-		
-		padding: 8px 10px;
+		padding: 4px 10px;
 		text-align: center;
 		color: #330019;
 		text-decoration: none;
