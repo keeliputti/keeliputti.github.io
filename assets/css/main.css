@@ -1873,6 +1873,7 @@ body {
 		padding: 0 1.5em;
 		text-align: center;
 		white-space: nowrap;
+		line-height: 0;
 	}
 
 	.btn-rounded-white {
