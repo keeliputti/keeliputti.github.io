@@ -1891,22 +1891,21 @@ body {
 }
 
 .btn{
-	-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	 display: inline-block;
+	    display: inline-block;
     color: #330019;
     padding: 15px 18px;
-    border: 3px solid #d9d9d9;
+    border: 3px solid #000;
     border-radius: 8px;
-    transition: .5s ease all;
- font-size: 15px;
+	font-size: 15px;
+    transition: .5s ease all
 }
+
+.btn:hover {
+    color: #3498db;
+    background: #fff;
+    text-decoration: none
+}
+
 
 
 
