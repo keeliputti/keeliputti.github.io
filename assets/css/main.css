@@ -1851,12 +1851,28 @@ body {
 	input[type="button"],
 	button,
 	.button {
-		 display: inline-block;
-    color: #330019;
-    padding: 15px 18px;
-    border: 3px solid #fff;
-    border-radius: 8px;
-    transition: .5s ease all
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 8px;
+		border: 0.5;
+		color: #330019; 
+		border-width: 2px; /*button border*/
+		border-color: #d9d9d9;
+		cursor: pointer;
+		display: inline;
+		font-weight: 300;
+		height: 2.75em;
+		line-height: 2.75em;
+		min-width: 9.25em;
+		padding: 0 1.5em;
+		text-align: center;
+		white-space: nowrap;
 	}
 
 	.btn-rounded-white {
@@ -1878,9 +1894,10 @@ body {
 	 display: inline-block;
     color: #330019;
     padding: 15px 18px;
-    border: 3px solid #fff;
+    border: 3px solid #d9d9d9;
     border-radius: 8px;
     transition: .5s ease all
+ font-size: 15px;
 }
 
 
