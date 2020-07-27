@@ -1874,6 +1874,15 @@ body {
     text-decoration: none
 }
 
+.btn{
+	 display: inline-block;
+    color: #330019;
+    padding: 15px 18px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    transition: .5s ease all
+}
+
 
 
 		input[type="submit"].icon,
