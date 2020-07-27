@@ -1852,17 +1852,17 @@ body {
 	button,
 	.button {
 		 background-color: #ffffff; /* Green */
-  border: none;
+  
   border-radius: 8px;
   border: 0.5;
-  border-width: 2px; /*button border*/
+  border-width: 3px; /*button border*/
   border-color: #d9d9d9;
   color: #33019;
-  padding: 15px 32px;
+  padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  display: inline;
+  font-size: 10px;
 	}
 
 	.btn-rounded-white {
