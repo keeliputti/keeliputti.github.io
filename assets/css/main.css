@@ -104,8 +104,6 @@ input, select, textarea {
 body {
 
 	background: url("images/wow.jpg") , linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-
-	background-size: cover;
 	animation: gradient 15s ease infinite;
 }
 
@@ -130,7 +128,8 @@ body {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
-			transition: none !important;background-size: cover;
+			transition: none !important;
+			background-size: cover; !import;
 		}
 
 /* Type */
