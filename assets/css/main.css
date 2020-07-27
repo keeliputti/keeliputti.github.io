@@ -1864,7 +1864,7 @@ body {
 		border-width: 2px; /*button border*/
 		border-color: #d9d9d9;
 		cursor: pointer;
-		display: inline-block;
+		display: inline;
 		font-weight: 300;
 		height: 2em;
 		line-height: 2.75em;
