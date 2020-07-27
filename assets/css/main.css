@@ -104,8 +104,9 @@ input, select, textarea {
 body {
 
 	background: url("images/wow.jpg") , linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: contain;
 	animation: gradient 15s ease infinite;
-	background-size: auto
+	
 }
 
 @keyframes gradient {
@@ -130,7 +131,6 @@ body {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-			background-size: auto !important;
 		}
 
 /* Type */
