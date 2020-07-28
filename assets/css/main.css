@@ -123,6 +123,14 @@ body {
 
 /* Type */
 
+	body {
+		background-color: #935d8c;
+
+		color: rgba(255, 255, 255, 0.85);
+
+	}
+
+
 	body, input, select, textarea {
 		font-family: Source Sans Pro, Helvetica, sans-serif;
 		font-size: 17pt;
