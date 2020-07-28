@@ -103,8 +103,11 @@ input, select, textarea {
 	}
 body {
 
-	background: url("images/wow.jpg") , linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 1000% 1000%;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 800% 800%;
+	-webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
 	animation: gradient 15s ease infinite;
 	
 }
@@ -134,13 +137,6 @@ body {
 		}
 
 /* Type */
-
-	body {
-		background-color: #935d8c;
-
-		color: rgba(255, 255, 255, 0.85);
-
-	}
 
 	body, input, select, textarea {
 		font-family: Source Sans Pro, Helvetica, sans-serif;
